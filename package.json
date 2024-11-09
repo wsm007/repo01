@@ -1,0 +1,22 @@
+{
+  "name": "repo01",
+  "version": "1.0.0",
+  "description": "Primer proyecto reinicio ",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "wsm",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0"
+  }
+}
